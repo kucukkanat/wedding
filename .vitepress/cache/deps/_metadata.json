@@ -1,0 +1,19 @@
+{
+  "hash": "e5899da6",
+  "browserHash": "e9036c66",
+  "optimized": {
+    "vue": {
+      "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "c647129b",
+      "needsInterop": false
+    },
+    "@gugadev/wc-stories": {
+      "src": "../../../node_modules/@gugadev/wc-stories/index.js",
+      "file": "@gugadev_wc-stories.js",
+      "fileHash": "f235926d",
+      "needsInterop": true
+    }
+  },
+  "chunks": {}
+}
