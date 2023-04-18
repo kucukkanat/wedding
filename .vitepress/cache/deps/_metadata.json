@@ -1,18 +1,12 @@
 {
-  "hash": "e5899da6",
-  "browserHash": "e9036c66",
+  "hash": "f5d448c7",
+  "browserHash": "b816f9cb",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "c647129b",
+      "fileHash": "8f6faeca",
       "needsInterop": false
-    },
-    "@gugadev/wc-stories": {
-      "src": "../../../node_modules/@gugadev/wc-stories/index.js",
-      "file": "@gugadev_wc-stories.js",
-      "fileHash": "f235926d",
-      "needsInterop": true
     }
   },
   "chunks": {}

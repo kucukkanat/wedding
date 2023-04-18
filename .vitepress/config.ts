@@ -26,7 +26,9 @@ export default defineConfig({
       // other locale specific properties...
     },
   },
+  appearance: false,
   themeConfig: {
+    
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Welcome", link: "/" },
