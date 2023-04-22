@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'handwriting';
+    src: url('/font/DancingScript-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'handwriting';
+    font-weight: bold;
+    src: url('/font/DancingScript-Bold.ttf');
+}
+
+.handwriting {
+    font-family: 'handwriting';
+}
+
+.handwriting.bold {
+    font-weight: bold;
+}
