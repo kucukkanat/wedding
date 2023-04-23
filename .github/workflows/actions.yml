@@ -22,3 +22,4 @@ jobs:
           git add . &&
           git commit -m "build pages" &&
           git remote set-url --push origin https://kucukkanat:$GITHUB_TOKEN@github.com/kucukkanat/wedding
+          git push 
