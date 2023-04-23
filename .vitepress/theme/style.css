@@ -15,6 +15,12 @@
   --vp-c-brand-dark: #535bf2;
   --vp-c-brand-darker: #454ce1;
   --vp-c-brand-dimm: rgba(100, 108, 255, 0.08);
+
+  --vp-c-text-1: #fff;
+  --vp-c-text-2: #000;
+  --vp-c-bg-soft: #dedede;
+  --vp-custom-block-font-size: 18px;
+  --vp-custom-block-info-text: #000;
 }
 
 /**
@@ -95,6 +101,9 @@
   background-color: rgba(0,0,0);
   color: #fff
 } 
+.VPNavBar .title {
+  color: #fff !important;
+}
 .VPNavBar .content-body {
   background: none !important;
 }
@@ -112,7 +121,7 @@ body {
   background-image: url(/grid_0.png);
   background-size: cover;
   background-position: center center;
-  backdrop-filter: blur(2px) contrast(0.6) opacity(0.7);
+  backdrop-filter: brightness(0.3);
   background-repeat: no-repeat;
 }
 
@@ -125,3 +134,33 @@ body {
   
 }
 
+/* .vp-doc table {
+  background-color: #000;
+  display: table;
+} */
+
+.custom-block-title {
+  margin-bottom: 10px !important;
+}
+
+.aside-container {
+  overflow: unset !important;
+}
+.aside-content {
+  position: -webkit-sticky;
+    position: sticky;
+  top: 30px;
+  padding-top: 30px;
+  background-color:rgba(255,255, 255, 0.5);
+  min-height: unset !important;
+}
+.VPDocOutlineDropdown {
+  display: none !important
+}
+.aside-content .outline-title {
+  font-size: 20px;
+}
+
+.VPLink,.VPMenu .trans-title {
+  color: #000 !important;
+}

@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: " ",
+  title: "Ieva & Tolga",
   description: "We are getting married",
   srcDir: "src",
   appearance: false,

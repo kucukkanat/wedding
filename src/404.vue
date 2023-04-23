@@ -5,7 +5,7 @@ import CTA from "./components/CTA.vue"
 .ieva {
     position: relative;
     display: inline-block;
-    width: 200px;
+    width: 150px;
     bottom: 0;
     left: 0;
     animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
@@ -18,7 +18,7 @@ import CTA from "./components/CTA.vue"
 .tolga {
     position: relative;
     display: inline-block;
-    width: 200px;
+    width: 150px;
     bottom: 0;
     left: 0;
     animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
@@ -36,6 +36,7 @@ import CTA from "./components/CTA.vue"
 }
 
 h1,h2 {
+    display:block;
     line-height: 1em;
     font-size: 35px;
     color: #FFF;
