@@ -1,9 +1,6 @@
 name: Build for github pages
 run-name: Github Pages Release 🚀
 on: [push]
-env:
-  GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-  TEST_: "TES_T"
 jobs:
   Page-Release:
     runs-on: ubuntu-latest
@@ -23,5 +20,5 @@ jobs:
           git add . &&
           git commit -m "build pages" &&
           echo GH TOKEN $GITHUB_TOKEN - $TEST_
-          git remote add XXOO https://kucukkanat:$GITHUB_TOKEN@github.com/kucukkanat/wedding &&
+          git remote add XXOO https://kucukkanat:${GITHUB_TOKEN}@github.com/kucukkanat/wedding &&
           git push XXOO gh-pages
