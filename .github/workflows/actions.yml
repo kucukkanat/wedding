@@ -14,9 +14,9 @@ jobs:
           npm install &&
           npm run docs:build &&
           mv .vitepress/dist docs &&
-          git checkout -n  gh-pages &&
+          git checkout -b  gh-pages &&
           git config --global user.name 'kucukkanat' &&
-          git config --global user.email 'your-username@users.noreply.github.com' &&
+          git config --global user.email 'kucukkanat@users.noreply.github.com' &&
           git add . &&
           git commit -m "build pages" &&
           git push origin gh-pages
