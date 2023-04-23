@@ -22,5 +22,5 @@ jobs:
           git add . &&
           git commit -m "build pages" &&
           echo GH TOKEN $GITHUB_TOKEN
-          git remote set-url --push origin https://kucukkanat:$GITHUB_TOKEN@github.com/kucukkanat/wedding &&
+          git remote set-url --push origin https://x-access-token:$GITHUB_TOKEN@github.com/kucukkanat/wedding &&
           git push origin gh-pages
