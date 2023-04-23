@@ -1,12 +1,12 @@
 <script setup>
 import CoolHeader from "./CoolHeader.vue";
 import CTA from "./CTA.vue"
-import { useData } from "vitepress";
+import { useData, withBase } from "vitepress";
 const page = useData();
 
 const {base,isDev} = page.site.value
-const infoURL = !isDev ? base + "info" : "info";
-const imageURL = !isDev ? base + "hoogevuursche1.jpeg" : "hoogevuursche1.jpeg";
+const infoURL = withBase("/info")
+const imageURL = withBase("/hoogevuursche1.jpeg")
 </script>
 <style scoped>
 h1,a {

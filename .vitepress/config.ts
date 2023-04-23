@@ -9,7 +9,6 @@ export default defineConfig({
   cleanUrls: true,
   base: '/wedding/',
   themeConfig: {
-    isDev: process.env.NODE_ENV === 'development',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
