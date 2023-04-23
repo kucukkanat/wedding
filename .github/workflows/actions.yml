@@ -18,7 +18,7 @@ jobs:
           git config --global user.name 'kucukkanat' &&
           git config --global user.email 'htolgasahin@gmail.com' &&
           git add . &&
-          git commit -m "build pages" &&
+          git commit -m "build pages"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
