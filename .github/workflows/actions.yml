@@ -2,7 +2,7 @@ name: Build for github pages
 run-name: Github Pages Release 🚀
 on: [push]
 env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 jobs:
   Page-Release:
     runs-on: ubuntu-latest
