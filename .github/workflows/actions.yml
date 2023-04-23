@@ -19,6 +19,8 @@ jobs:
           git config --global user.email 'htolgasahin@gmail.com' &&
           git add . &&
           git commit -m "build pages" &&
-          echo GH TOKEN $GITHUB_TOKEN - $TEST_
-          git remote add XXOO https://kucukkanat:${GITHUB_TOKEN}@github.com/kucukkanat/wedding &&
-          git push XXOO gh-pages
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
