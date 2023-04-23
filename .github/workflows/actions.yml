@@ -10,10 +10,10 @@ jobs:
         with:
           node-version: '18'
       - run: |
-        npm install
-        npm run docs:build
-        mv .vitepress/dist docs
-        git checkout -n  gh-pages
-        git add .
-        git commit -m "build pages"
-        git push origin gh-pages
+      npm install
+      npm run docs:build
+      mv .vitepress/dist docs
+      git checkout -n  gh-pages
+      git add .
+      git commit -m "build pages"
+      git push origin gh-pages
