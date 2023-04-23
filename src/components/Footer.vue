@@ -1,6 +1,10 @@
 <script setup>
 import CoolHeader from "./CoolHeader.vue";
 import CTA from "./CTA.vue"
+import { useData } from "vitepress";
+const page = useData();
+const infoURL = page.base + "/info";
+const imageURL = page.base + "/hoogevuursche1.jpeg";
 </script>
 <style scoped>
 h1,a {
@@ -18,5 +22,6 @@ h1 {
 <h1> Kasteel de Hooge Vuursche </h1> 
 <h1> June 23rd, 2023 </h1> 
 <div> <CTA url="/info">More information </CTA> </div>
+
 </CoolHeader>
 </template>

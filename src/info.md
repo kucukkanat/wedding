@@ -4,6 +4,7 @@ outline: deep
 
 <style>
 .custom-block-title{display: none;}
+body{backdrop-filter: blur(5px) brightness(1.2);}
 </style>
 
 # Info
