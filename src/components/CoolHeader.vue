@@ -34,7 +34,7 @@ export default {
 </script>
 
 <template>
-<div class="wrapper" :style="{backgroundImage: `url(${this.imageUrl})`}">
+<div class="wrapper" :style="{backgroundImage: `url(${imageUrl})`}">
     <div class="curtain">
         <slot></slot>
     </div>

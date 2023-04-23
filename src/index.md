@@ -24,16 +24,15 @@ layout: home
 ---
 
 <script setup>
-  import Polaroid from "./components/polaroid.vue";
   import HeartbeatKiss from "./components/HeartbeatKiss.vue";
   import CoolHeader from "./components/CoolHeader.vue";
   import Footer from "./components/Footer.vue";
 </script>
 
-
-<HeartbeatKiss />
-<Footer />
-
+<div>
+<HeartbeatKiss/>
+<Footer/>
+</div>
 
 
 
