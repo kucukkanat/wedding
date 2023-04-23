@@ -164,3 +164,7 @@ body {
 .VPLink,.VPMenu .trans-title {
   color: #000 !important;
 }
+
+.VPNavScreenTranslations .title {
+  color: #000;
+}

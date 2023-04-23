@@ -5,4 +5,4 @@ lang: tr
 aside: false
 ---
 
-# Tuekce
+# Turkce Hazirlaniyor ...
