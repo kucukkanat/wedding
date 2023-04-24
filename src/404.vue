@@ -34,20 +34,9 @@ import CTA from "./components/CTA.vue"
     align-items: center;
     flex-direction: column
 }
-
-h1,h2 {
-    display:block;
-    line-height: 1em;
-    font-size: 35px;
-    color: #FFF;
-    font-weight: bold;
-    margin: 15px 0px;
+h1 {
+    font-size: 5vw;
 }
-h2 {
-    font-size: 25px;
-    font-weight: normal
-}
-
 .center {
     text-align: center;
     
@@ -62,7 +51,7 @@ h2 {
         <div class="center">
             <h1>Page not found</h1>
             <h2>(Sayfa bulunamadı)</h2>
-            <div style="margin-top: 20px">
+            <div style="margin-top: 10px">
                 <CTA url="/">Go to homepage</CTA>
             </div>
         </div>

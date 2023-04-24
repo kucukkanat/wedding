@@ -5,7 +5,7 @@
         background-position: center center;
     }
     .curtain {
-        padding: 200px 0px;
+        padding: 100px 0px;
         background-color: rgba(0,0,0,0.5);
         color: #fff;
         font-family: handwriting;

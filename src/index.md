@@ -29,7 +29,15 @@ layout: home
   import Footer from "./components/Footer.vue";
 </script>
 
-<div>
+<style>
+  .root #main-wrapper{
+    background-image: url(/grid_0.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  </style>
+<div class="root">
 <HeartbeatKiss/>
 <Footer/>
 </div>

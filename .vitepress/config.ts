@@ -12,6 +12,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Travelling', link: '/travel' },
+      { text: 'The Location!', link: '/location' },
       { text: 'The Day!', link: '/info' },
       { text: 'Guestbook', link: '/guestbook' }
     ],
@@ -32,21 +34,37 @@ export default defineConfig({
   },
   locales: {
     root: {
-      label: 'English',
+      label: '💍 English',
       lang: 'en'
     },
-    fr: {
-      label: 'Lithuanian',
+    lt: {
+      label: '🇱🇹 Lithuanian',
       lang: 'lt', // optional, will be added  as `lang` attribute on `html` tag
-      link: '/lt' // default /fr/ -- shows on navbar translations menu, can be external
-
+      link: '/lt', // default /fr/ -- shows on navbar translations menu, can be external
+      themeConfig: {
+        nav: [
+          { text: 'Home', link: '/' },
+          { text: 'Travelling', link: '/travel' },
+          { text: 'The Location!', link: '/location' },
+          { text: 'The Day!', link: '/info' },
+          { text: 'Guestbook', link: '/guestbook' }
+        ],
+      }
       // other locale specific properties...
     },
     tr: {
-      label: 'Türkçe',
+      label: '🇹🇷 Türkçe',
       lang: 'tr', // optional, will be added  as `lang` attribute on `html` tag
       link: '/tr', // default /fr/ -- shows on navbar translations menu, can be external
-      
+      themeConfig: {
+        nav: [
+          { text: 'Anasayfa', link: '/' },
+          { text: 'Ulaşım', link: '/ulasim' },
+          { text: 'Hooge Vuursche Kalesi', link: '/mekan' },
+          { text: 'O gün!', link: '/ogun' },
+          { text: 'Ziyaretçi Defteri', link: '/guestbook' }
+        ],
+      }
     }
   }
 })

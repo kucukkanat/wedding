@@ -92,12 +92,6 @@
 }
 
 /* Custom CSS */
-body {
-  background-image: url(/grid_0.png);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
 
 .aside-container {
   overflow: unset !important;
@@ -109,4 +103,15 @@ body {
   padding-top: 30px;
   background-color:rgba(255,255, 255, 0.5);
   min-height: unset !important;
+}
+
+.VPHome {
+  padding-bottom: 0px !important;
+}
+
+body {
+  line-height: unset !important;
+}
+h1,h2,h3,h4,h5,h6 {
+  line-height: unset !important;
 }

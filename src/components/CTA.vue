@@ -11,15 +11,14 @@ export default {
 
 <style scoped>
 a {
+    display: inline-block;
     font-size: 4vw;
     padding: 10px;
-    border: 2px solid #fff;
-    position:relative;
-    top: 10px;
-    color:#FFF
+    border: 2px solid #000;
+
 }
 a:hover {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(255, 178, 245, 0.5);
     transition: 1s;
     padding: 10px 30px;
 }
