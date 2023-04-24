@@ -12,7 +12,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Venue', link: '/info' }
+      { text: 'The Day!', link: '/info' },
+      { text: 'Guestbook', link: '/guestbook' }
     ],
 
     // sidebar: [
