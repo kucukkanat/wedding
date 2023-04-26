@@ -20,7 +20,7 @@ const data =  {
                 MORE: "Daugiau Informacijos"
             },
             tr: {
-                DATE: "23 Haziran 2023",
+                DATE: "23 Temmuz 2023",
                 MORE: "Detaylar"
 
             }
