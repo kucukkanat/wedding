@@ -12,12 +12,12 @@ const props = defineProps({
     })
 const data =  {
             en: {
-                DATE: "June 23rd, 2023",
+                DATE: "July 23rd, 2023",
                 MORE: "More Information"
             },
             lt: {
-                DATE: "June 23rd, 2023",
-                MORE: "More Information"
+                DATE: "Liepos 23, 2023",
+                MORE: "Daugiau Informacijos"
             },
             tr: {
                 DATE: "23 Haziran 2023",

@@ -59,7 +59,7 @@ const data = {
         TITLE: "Celebrate with us!",
     },
     lt: {
-        TITLE: "Celebrate with us!",
+        TITLE: "Švęskite su mumis!",
     },
     tr: {
         TITLE: "Evleniyoruz!",

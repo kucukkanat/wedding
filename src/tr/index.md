@@ -39,7 +39,7 @@ layout: home
   </style>
 <div class="root">
 <HeartbeatKiss lang="tr"/>
-<Footer/>
+<Footer lang="tr"/>
 </div>
 
 
