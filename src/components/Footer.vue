@@ -4,23 +4,50 @@ import CTA from "./CTA.vue"
 import { withBase } from "vitepress";
 const imageURL = withBase("/hoogevuursche1.jpeg")
 const infoURL = withBase("/info")
+const props = defineProps({
+        lang: {
+            type: String,
+            default: 'en'
+        }
+    })
+const data =  {
+            en: {
+                DATE: "June 23rd, 2023",
+                MORE: "More Information"
+            },
+            lt: {
+                DATE: "June 23rd, 2023",
+                MORE: "More Information"
+            },
+            tr: {
+                DATE: "23 Haziran 2023",
+                MORE: "Detaylar"
+
+            }
+        }
+    
+
+
 </script>
 <style scoped>
-h1,a {
+h1,
+a {
     line-height: 1em;
     margin: 15px 0px;
 }
+
 h1 {
     font-size: 6vw;
     text-shadow: 0px 0px 5px #000
 }
-
 </style>
 <template>
-<CoolHeader :imageUrl="imageURL"> 
-<h1> Kasteel de Hooge Vuursche </h1> 
-<h1> June 23rd, 2023 </h1> 
-<div> <CTA :url="infoURL">More information  </CTA> </div>
+    <CoolHeader :imageUrl="imageURL">
+        <h1> Kasteel de Hooge Vuursche </h1>
+        <h1> {{ data[props.lang]["DATE"] }} </h1>
+        <div>
+            <CTA :url="infoURL">{{ data[props.lang]["MORE"] }} </CTA>
+        </div>
 
-</CoolHeader>
+    </CoolHeader>
 </template>

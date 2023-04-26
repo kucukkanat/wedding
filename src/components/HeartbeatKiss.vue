@@ -43,12 +43,36 @@ h2 {
 }
 </style>
 
+<script>
+export default {
+    props: {
+        lang: {
+            type: String,
+            default: 'en'
+        }
+    },
+    data() {
+        return {
+            en:{
+TITLE: "Celebrate with us!",
+            },
+            lt:{
+TITLE: "Celebrate with us!",
+            },
+            tr: {
+                TITLE: "Evleniyoruz!",
+            
+            }
+        }
+    }
+}
+</script>
 
 <template>
     <div id="main-wrapper">
         
             <div class="center">
-                <h2 class="handwriting bold center white" style="font-size: 7vw;height: 1em">Celebrate With Us!</h2>
+                <h2 class="handwriting bold center white" style="font-size: 7vw;height: 1em">{{this[lang]["TITLE"]}}</h2>
                 <img id="img-kiss" style="display:inline-block" src="/kiss.png" />
             </div>
             <div id="flower_wrapper">
