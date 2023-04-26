@@ -3,7 +3,7 @@ outline: deep
 ---
 
 <script setup>
-import CoolHeader from "./components/CoolHeader.vue"
+import CoolHeader from "../components/CoolHeader.vue"
 import { withBase } from "vitepress";
 const imageURL = withBase("/hoogevuursche1.jpeg")
 </script>

@@ -59,9 +59,9 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Anasayfa', link: '/' },
-          { text: 'Ulaşım', link: '/ulasim' },
-          { text: 'Hooge Vuursche Kalesi', link: '/mekan' },
-          { text: 'O gün!', link: '/ogun' },
+          { text: 'Ulaşım', link: '/travel' },
+          { text: 'Hooge Vuursche Kalesi', link: '/location' },
+          { text: 'O gün!', link: '/info' },
           { text: 'Ziyaretçi Defteri', link: '/guestbook' }
         ],
       }

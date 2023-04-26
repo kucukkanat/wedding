@@ -49,7 +49,7 @@ h1 {
             <img class="tolga" src="/tolga_muisje.png" />
         </div>
         <div class="center">
-            <h1>Page not found</h1>
+            <h2>Page not found</h2>
             <h2>(Sayfa bulunamadı)</h2>
             <div style="margin-top: 10px">
                 <CTA url="/">Go to homepage</CTA>
