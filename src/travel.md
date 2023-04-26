@@ -60,14 +60,10 @@ Here are also some other useful links:
 Should you wish you find accommodation near us in Almere, here are some of the
 suggestions in Almere city center (close to different stores and cafes):
 
-- [Leonardo Hotel (4 stars)](https://www.leonardo-hotels.nl/almere/leonardo-hotel-almere-city-center)
-- [Best Western Plus Plaza Almere (4 stars)](https://www.bestwestern.nl/booking-path/hotel-details/best-western-plus-
-plaza-almere-almere-
-92742?iata=00164860&amp;gclid=Cj0KCQjwxYOiBhC9ARIsANiEIfaCaBGsEye_FwzN
-dRaeMhOs8ijZlqUPLWAMAs5qpqYPzwQ4MighqvgaAl9SEALw_wcB)
+- [Leonardo Hotel](https://www.leonardo-hotels.nl/almere/leonardo-hotel-almere-city-center)
+- [Best Western Plus Plaza Almere](https://www.bestwestern.nl/booking-path/hotel-details/best-western-plus-plaza-almere-almere-92742?iata=00164860)
 
-- [Casa Mirador Sleep-In (3 stars): not in the city center, but 15 mins walk from
-our home](https://www.booking.com/hotel/nl/casa-mirador-bed-amp-breakfast.nl.html) :relieved:
+- [Casa Mirador Sleep-In: not in the city center, but 15 mins walk from our home](https://www.booking.com/hotel/nl/casa-mirador-bed-amp-breakfast.nl.html) :relieved:
 - [Anno](https://annoalmere.nl/)
 
 **Our home address:** Sprietzeil 65, 1319EB, Almere.
