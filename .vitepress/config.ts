@@ -40,14 +40,14 @@ export default defineConfig({
     lt: {
       label: '🇱🇹 Lithuanian',
       lang: 'lt', // optional, will be added  as `lang` attribute on `html` tag
-      link: '/lt', // default /fr/ -- shows on navbar translations menu, can be external
+      link: '/lt/', // default /fr/ -- shows on navbar translations menu, can be external
       themeConfig: {
         nav: [
-          { text: 'Home', link: '/' },
-          { text: 'Travelling', link: '/travel' },
-          { text: 'The Location!', link: '/location' },
-          { text: 'The Day!', link: '/info' },
-          { text: 'Guestbook', link: '/guestbook' }
+          { text: 'Home', link: '/lt/' },
+          { text: 'Travelling', link: '/lt/travel' },
+          { text: 'The Location!', link: '/lt/location' },
+          { text: 'The Day!', link: '/lt/info' },
+          { text: 'Guestbook', link: '/lt/guestbook' }
         ],
       }
       // other locale specific properties...
@@ -55,14 +55,14 @@ export default defineConfig({
     tr: {
       label: '🇹🇷 Türkçe',
       lang: 'tr', // optional, will be added  as `lang` attribute on `html` tag
-      link: '/tr', // default /fr/ -- shows on navbar translations menu, can be external
+      link: '/tr/', // default /fr/ -- shows on navbar translations menu, can be external
       themeConfig: {
         nav: [
-          { text: 'Anasayfa', link: '/' },
-          { text: 'Ulaşım', link: '/travel' },
-          { text: 'Hooge Vuursche Kalesi', link: '/location' },
-          { text: 'O gün!', link: '/info' },
-          { text: 'Ziyaretçi Defteri', link: '/guestbook' }
+          { text: 'Anasayfa', link: '/tr/' },
+          { text: 'Ulaşım', link: '/tr/travel' },
+          { text: 'Hooge Vuursche Kalesi', link: '/tr/location' },
+          { text: 'O gün!', link: '/tr/info' },
+          { text: 'Ziyaretçi Defteri', link: '/tr/guestbook' }
         ],
       }
     }

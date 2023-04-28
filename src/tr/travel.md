@@ -1,34 +1,27 @@
-
-::: info <h1>Parking</h1>
-Parking is possible at the castle.
+::: info <h1>Otopark</h1>
+Kale içerisinde park etmek mümkündür.
 :::
 
-::: info <h1>Travelling from abroad</h1>
-Let us know when you are coming so that we could organize quality socializing before (or
-after) the big event.
-The most convenient is to fly to the Schiphol Airport (Amsterdam). It is also possible to fly to
-Eindhoven Airport, but it would take 2-2.5 hours to travel to Almere/Baarn.
-Travelling by public transport is possible with the OV-chipkaart (train, tram, bus, metro):
-https://www.public-transport-holland.com/
+::: info <h1>Yurtdışından seyahat</h1>
+Büyük etkinlikten önce (veya sonra) kaliteli sosyalleşme için ne zaman geleceğinizi bize bildirin.
+En uygun olanı Schiphol Havaalanı'na (Amsterdam) uçmaktır. Eindhoven Havaalanı'na da uçmak mümkündür, ancak Almere/Baarn'a seyahat etmek 2-2.5 saat sürer.
+Toplu taşıma araçlarıyla seyahat OV-chipkaart (tren, tramvay, otobüs, metro) ile mümkündür: https://www.public-transport-holland.com/
 :::
 
-### Find your way
+### Ulaşım
+::: info <h1>Toplu taşıma</h1>
+Toplu taşıma ile ulaşmanız kolaydır. Hollanda'da Google Maps, toplu taşıma konusunda da çok güvenilirdir.
 
-::: info <h1>Public transportation</h1>
-Getting around in the Netherlands is very easy. Google Maps is very reliable with road navigation as well as **public transportation**. 
+Ayrıca işinize yarayabilecek diğer bazı bağlantılar şunlardır:
 
----
-
-Here are also some other useful links:
-- [Travelling by train](https://ns.nl)
-  - You can buy train tickets at the station from big yellow vending machines
-- [9292 For all public transportation](https://9292.nl)
-  - For the rest of the transportation you will need an OV-Chipkaart (Public transportation card). You can find it at Amsterdam Schiphol Airport and Amsterdam Centraal Station or tourist information centers.
-- [Uber](https://uber.com) works but public transportation is comfortable and reliable enough. It is not preferable and expensive in the Netherlands.
-
+- Tren ile ulaşım: [NS.NL](https://ns.nl)
+  - Tren biletlerini büyük sarı satış makinelerinden istasyonda satın alabilirsiniz.
+- Tüm toplu taşıma için [9292](htps://9292.nl)
+- Geri kalan taşıma için bir OV-Chipkaart'a (Toplu taşıma kartı) ihtiyacınız olacak. Amsterdam Schiphol Havaalanı ve Amsterdam Centraal İstasyonu veya turizm bilgi merkezlerinde bulabilirsiniz.
+- Hollanda'da Uber kullanabilirsiniz ancak Hollanda'da toplu taşıma yeterince rahat ve güvenilirdir. Tercih edilmemelidir ve pahalıdır.
 :::
 
-::: details From Eindhoven Airport <a style="color:blue" href="https://www.google.com/maps/dir//Kasteel+De+Hooge+Vuursche,+Hilversumsestraatweg+14,+3744+KC+Baarn/@52.2482807,5.173374,11z/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c66a89b7fcca8b:0x9c6894d987984a2f!3e3">(👉🏻 Get Directions)</a>
+::: details Eindhoven Havaalanından <a style="color:blue" href="https://www.google.com/maps/dir//Kasteel+De+Hooge+Vuursche,+Hilversumsestraatweg+14,+3744+KC+Baarn/@52.2482807,5.173374,11z/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c66a89b7fcca8b:0x9c6894d987984a2f!3e3">(👉🏻 Get Directions)</a>
 <iframe
   width="100%"
   height="450"
@@ -42,7 +35,7 @@ Here are also some other useful links:
 :::
 
 
-::: details From Amsterdam Airport <a style="color:blue" href="https://www.google.com/maps/dir//Kasteel+De+Hooge+Vuursche,+Hilversumsestraatweg+14,+3744+KC+Baarn/@52.2482807,5.173374,11z/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c66a89b7fcca8b:0x9c6894d987984a2f!3e3">(👉🏻 Get Directions)</a>
+::: details Amsterdam Havaalanından <a style="color:blue" href="https://www.google.com/maps/dir//Kasteel+De+Hooge+Vuursche,+Hilversumsestraatweg+14,+3744+KC+Baarn/@52.2482807,5.173374,11z/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x47c66a89b7fcca8b:0x9c6894d987984a2f!3e3">(👉🏻 Get Directions)</a>
 <iframe
   width="100%"
   height="450"
@@ -56,7 +49,8 @@ Here are also some other useful links:
 :::
 
 
-:::info <h1>Accomodation</h1>
+
+:::info <h1>Konaklama</h1>
 Should you wish you find accommodation near us in Almere, here are some of the
 suggestions in Almere city center (close to different stores and cafes):
 
@@ -66,5 +60,5 @@ suggestions in Almere city center (close to different stores and cafes):
 - [Casa Mirador Sleep-In: not in the city center, but 15 mins walk from our home](https://www.booking.com/hotel/nl/casa-mirador-bed-amp-breakfast.nl.html) :relieved:
 - [Anno](https://annoalmere.nl/)
 
-**Our home address:** Sprietzeil 65, 1319EB, Almere.
+**Adresimiz:** Sprietzeil 65, 1319EB, Almere.
 :::
