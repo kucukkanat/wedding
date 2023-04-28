@@ -46,7 +46,7 @@ export default defineConfig({
           { text: "Namai", link: "/lt/" },
           { text: "Kelionė", link: "/lt/travel" },
           { text: "Vieta!", link: "/lt/location" },
-          { text: "Diena!", link: "/lt/info" },
+          { text: "Programa", link: "/lt/info" },
           { text: "Svečių knyga", link: "/lt/guestbook" },
         ],
       },
