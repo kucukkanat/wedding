@@ -43,9 +43,9 @@ export default defineConfig({
       link: "/lt/", // default /fr/ -- shows on navbar translations menu, can be external
       themeConfig: {
         nav: [
-          { text: "Namai", link: "/lt/" },
+          { text: "Pagrindinis puslapis", link: "/lt/" },
           { text: "Kelionė", link: "/lt/travel" },
-          { text: "Vieta!", link: "/lt/location" },
+          { text: "Vieta", link: "/lt/location" },
           { text: "Programa", link: "/lt/info" },
           { text: "Svečių knyga", link: "/lt/guestbook" },
         ],
