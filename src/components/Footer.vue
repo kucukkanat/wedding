@@ -3,7 +3,7 @@ import CoolHeader from "./CoolHeader.vue";
 import CTA from "./CTA.vue"
 import { withBase } from "vitepress";
 const imageURL = withBase("/hoogevuursche1.jpeg")
-const infoURL = withBase("/info")
+
 const props = defineProps({
         lang: {
             type: String,
@@ -13,15 +13,18 @@ const props = defineProps({
 const data =  {
             en: {
                 DATE: "July 23rd, 2023",
-                MORE: "More Information"
+                MORE: "More Information",
+                infoURL : withBase("/info")
             },
             lt: {
                 DATE: "Liepos 23, 2023",
-                MORE: "Daugiau Informacijos"
+                MORE: "Daugiau Informacijos",
+                infoURL : withBase("/lt/info")
             },
             tr: {
                 DATE: "23 Temmuz 2023",
-                MORE: "Detaylar"
+                MORE: "Detaylar",
+                infoURL : withBase("/tr/info")
 
             }
         }
@@ -46,7 +49,7 @@ h1 {
         <h1> Kasteel de Hooge Vuursche </h1>
         <h1> {{ data[props.lang]["DATE"] }} </h1>
         <div>
-            <CTA :url="infoURL">{{ data[props.lang]["MORE"] }} </CTA>
+            <CTA :url="data[props.lang].infoURL">{{ data[props.lang]["MORE"] }} </CTA>
         </div>
 
     </CoolHeader>
