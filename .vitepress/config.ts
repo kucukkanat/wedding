@@ -7,7 +7,7 @@ export default defineConfig({
   srcDir: "src",
   appearance: false,
   cleanUrls: true,
-  base: "/wedding/",
+  base: "/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
