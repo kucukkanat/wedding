@@ -74,7 +74,7 @@ const data = {
 
         <div class="center">
             <h2 class="handwriting bold center white" style="font-size: 7vw;height: 1em">{{ data[props.lang]["TITLE"] }}</h2>
-            <img id="img-kiss" style="display:inline-block" src="/kiss.png" />
+            <img id="img-kiss" style="display:inline-block" src="IMG_1111.png" />
         </div>
         <div id="flower_wrapper">
             <img id="flower-image" src="/flowers1.png" />
