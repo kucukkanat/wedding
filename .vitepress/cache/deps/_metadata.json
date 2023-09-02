@@ -1,13 +1,44 @@
 {
-  "hash": "b0de96a8",
-  "browserHash": "23323236",
+  "hash": "cadd68f3",
+  "browserHash": "b05da1a3",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "710e04cd",
+      "fileHash": "0c1c3334",
+      "needsInterop": false
+    },
+    "lightgallery/vue": {
+      "src": "../../../node_modules/lightgallery/vue/LightGalleryVue.common.js",
+      "file": "lightgallery_vue.js",
+      "fileHash": "80844950",
+      "needsInterop": true
+    },
+    "lightgallery/plugins/thumbnail": {
+      "src": "../../../node_modules/lightgallery/plugins/thumbnail/lg-thumbnail.es5.js",
+      "file": "lightgallery_plugins_thumbnail.js",
+      "fileHash": "7c14d406",
+      "needsInterop": false
+    },
+    "lightgallery/plugins/zoom": {
+      "src": "../../../node_modules/lightgallery/plugins/zoom/lg-zoom.es5.js",
+      "file": "lightgallery_plugins_zoom.js",
+      "fileHash": "942a9b85",
+      "needsInterop": false
+    },
+    "lightgallery": {
+      "src": "../../../node_modules/lightgallery/lightgallery.es5.js",
+      "file": "lightgallery.js",
+      "fileHash": "9517c345",
       "needsInterop": false
     }
   },
-  "chunks": {}
+  "chunks": {
+    "chunk-XBATCHEH": {
+      "file": "chunk-XBATCHEH.js"
+    },
+    "chunk-CF3WPAMV": {
+      "file": "chunk-CF3WPAMV.js"
+    }
+  }
 }

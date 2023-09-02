@@ -4,6 +4,7 @@ import Theme from 'vitepress/theme'
 import './style.css'
 import './font.css'
 import "animate.css"
+import "lightgallery/css/lightgallery-bundle.min.css";
 import Custom404 from "../../src/404.vue"
 
 export default {
