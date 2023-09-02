@@ -1,0 +1,1 @@
+import{_ as r,o,c as s,r as _}from"./framework.c25d0a07.js";const n={props:{url:{type:String,required:!0}}},c=["href"];function a(e,d,t,f,p,u){return o(),s("a",{href:t.url},[_(e.$slots,"default",{},void 0,!0)],8,c)}const i=r(n,[["render",a],["__scopeId","data-v-f34fd02c"]]);export{i as C};
