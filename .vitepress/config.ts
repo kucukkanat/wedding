@@ -45,7 +45,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: "Pagrindinis puslapis", link: "/lt/" },
-          { text: "Foto Galerija", link: "/gallery" },
+          { text: "Foto Galerija", link: "/lt/gallery" },
           { text: "Kelionė", link: "/lt/travel" },
           { text: "Vieta", link: "/lt/location" },
           { text: "Programa", link: "/lt/info" },
@@ -61,7 +61,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: "Anasayfa", link: "/tr/" },
-          { text: "Foto Galeri", link: "/tr/" },
+          { text: "Foto Galeri", link: "/tr/gallery" },
           { text: "Ulaşım", link: "/tr/travel" },
           { text: "Hooge Vuursche Kalesi", link: "/tr/location" },
           { text: "O gün!", link: "/tr/info" },
