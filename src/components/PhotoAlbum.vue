@@ -29,16 +29,19 @@ const props = defineProps({
 
 const host = location.hostname.includes("localhost") ? 'https://pub-20ba7c13b51c498984730471c657d3ff.r2.dev' : 'https://picture-bucket.ievaandtolga.com'
 
-const INDEX_OF_PHOTO_CONTAINING_SENSITIVE_INFO1=115
-const photos = Array.from(Array(471).keys()).map(
+const REMOVE_INDEXES=[22,23,24,25,26,27,28,115,158]
+const photos = Array.from(Array(471).keys())
+.filter(i => !REMOVE_INDEXES.includes(i))
+.map(
   (i) => ({
+    i,
     bg: `background-image: url(${host}/thumb_${i}.jpg)`,
     image: `${host}/${i}.jpg`
   })
-).slice(1)
-photos.splice(INDEX_OF_PHOTO_CONTAINING_SENSITIVE_INFO1,1);
+)
+.slice(1)
 
-
+console.log(photos)
 </script>
 
 <template>
